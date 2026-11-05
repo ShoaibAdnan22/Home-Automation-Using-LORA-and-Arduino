@@ -12,35 +12,10 @@ The system collects environmental sensor telemetry and executes voice-directed o
 
 ---
 
-## Features
-
-- **Long-Range Sub-GHz Wireless Link:** Utilizes Semtech SX1278 (Ra-02) transceivers operating at 433 MHz via SPI for noise-tolerant packet transmission[cite: 8, 14, 19].
-- **Real-Time Environmental Monitoring:** Continuous data acquisition from DHT11 (temperature and humidity) and MQ-135 (air quality/gas index) sensors[cite: 14, 15, 25].
-- **Mains AC Load Control:** Actuation of 230V AC home appliances (bulbs, fans) through optoisolated SPDT relay modules[cite: 8, 16, 17].
-- **Voice-to-Serial Command Bridge:** Python integration converting speech commands to ASCII packet strings via serial communication at 9600 baud[cite: 21, 22].
-- **Zero-Cloud Dependency:** Operates fully off-grid without requiring external cloud gateways, routers, or persistent internet connectivity[cite: 8, 9, 26].
-
 Flow Chart:
 <img width="850" height="793" alt="image" src="https://github.com/user-attachments/assets/894ad969-dfec-4e32-a4be-3ff4f3de10e8" />
 
-
-Here is a clean, structured `README.md` for your **LoRa-Based Home Automation** repository:
-
-```markdown
-# Off-Grid Home Automation and Telemetry System Using LoRa and Arduino
-
-An off-grid, low-power telemetry and home automation system built using Arduino Uno microcontrollers and Semtech SX1278 LoRa transceivers operating in the sub-GHz 433 MHz band[cite: 8, 13, 14, 19]. The project demonstrates long-range, decentralized device control and real-time environmental monitoring independent of continuous internet or cellular infrastructure[cite: 8, 9, 26].
-
 ---
-
-## Overview
-
-Conventional smart-home architectures rely heavily on local Wi-Fi, Bluetooth, or cellular networks, creating single points of failure in remote, rural, or grid-disconnected environments[cite: 8, 10]. This project implements a dedicated peer-to-peer RF link using LoRa (Long Range) chirp spread spectrum technology to provide resilient transmission over long distances while maintaining low energy consumption[cite: 8, 10, 14].
-
-The system collects environmental sensor telemetry and executes voice-directed or script-driven actuation commands to switch high-voltage AC loads safely via electromechanical relays[cite: 8, 17, 21, 22, 25].
-
----
-
 ## Features
 
 - **Long-Range Sub-GHz Wireless Link:** Utilizes Semtech SX1278 (Ra-02) transceivers operating at 433 MHz via SPI for noise-tolerant packet transmission[cite: 8, 14, 19].
@@ -48,6 +23,8 @@ The system collects environmental sensor telemetry and executes voice-directed o
 - **Mains AC Load Control:** Actuation of 230V AC home appliances (bulbs, fans) through optoisolated SPDT relay modules[cite: 8, 16, 17].
 - **Voice-to-Serial Command Bridge:** Python integration converting speech commands to ASCII packet strings via serial communication at 9600 baud[cite: 21, 22].
 - **Zero-Cloud Dependency:** Operates fully off-grid without requiring external cloud gateways, routers, or persistent internet connectivity[cite: 8, 9, 26].
+
+---
 
 ## Hardware Components
 
